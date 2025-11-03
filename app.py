@@ -18,7 +18,7 @@ user_input = st.sidebar.text_input("Enter stock tickers (space-separated)", "AAP
 start_date = st.sidebar.date_input("Start date", pd.to_datetime('2020-01-01'))
 end_date = st.sidebar.date_input("End date", pd.to_datetime('today'))
 num_simulations = st.sidebar.slider("Number of Simulations", 1000, 50000, 20000, 1000)
-risk_free = st.sidebar.slider("Risk-Free Rate (%)", 0.0, 5.0, 2.0, 0.1) / 100
+risk_free = st.sidebar.slider("Risk-Free Rate (%)", 0.0, 2.0, 0.02, 0.01) / 100
 
 
 if st.sidebar.button("Run Optimization"):
