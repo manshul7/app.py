@@ -13,7 +13,7 @@ It fetches live stock data, runs a Monte Carlo simulation to generate thousands 
 ## 🚀 Live Application
 
 You can access the live application here:
-https://d7khpiijahgw544s5b8pj2.streamlit.app/
+https://j2okvvgss7jyelipngtnts.streamlit.app/
 
 ---
 
